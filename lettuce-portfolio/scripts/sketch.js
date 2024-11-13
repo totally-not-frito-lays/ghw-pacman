@@ -11,7 +11,7 @@ function draw() {
   background(0);
   let x = 50;
   let y = 50;
-  lettuceStream(x * 4, y + y / 2, 48);
+  lettuceStream(x * 4, y + y / 2, 50);
   pacman(50, 50);
 }
 
@@ -22,7 +22,6 @@ function lettuceStream(x, y, r) {
     x += r;
     lettuces[i].move();
   }
-  
 }
 
 function pacman(x, y) {
